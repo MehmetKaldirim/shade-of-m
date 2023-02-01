@@ -1,5 +1,7 @@
 import { parseISO, formatDistanceToNow } from "date-fns";
 
+import React from "react";
+
 const TimeAgo = ({ timestamp }) => {
   let timeAgo = "";
   if (timestamp) {
